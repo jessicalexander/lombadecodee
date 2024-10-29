@@ -463,7 +463,7 @@ article {
             </div>
         </div>
         <div class="right-side">
-            <img class="graph-1" src="{{asset('assets/images/graph-1.gif')}}">
+            <img class="graph-1" src="https://ik.imagekit.io/ilv4crzq1/images/graph-1%20(3).gif?updatedAt=1730223785042">
         </div>
     </div>
 </div>
