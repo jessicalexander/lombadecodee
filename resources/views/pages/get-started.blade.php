@@ -4,14 +4,14 @@
 @endsection
 @section('content')
 <div id="banner">
-    <img id="img-banner"src="{{asset('assets/images/banner-get-start.svg')}}">
+    <img id="img-banner"src="https://ik.imagekit.io/ilv4crzq1/images/banner-get-start.svg?updatedAt=1730218681578">
     <div id="center">
         <h1 style="color: #735e59" id="banner-text">Get Started</h1>
     </div>
 </div>
 <div class="timeline">
     <div class="cont left-cont">
-        <img src="{{asset('assets/images/leaf.gif')}}" alt="" class="icon">
+        <img src="https://ik.imagekit.io/ilv4crzq1/images/leaf.gif?updatedAt=1730218670105" alt="" class="icon">
         <div class="text-box">
             <h2 style="color: #735e59">Step 1</h2>
             <small  style="color: #337b3c">Join a community</small>
@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="cont right-cont">
-        <img src="{{asset('assets/images/leaf.gif')}}" alt="" class="icon">
+        <img src="https://ik.imagekit.io/ilv4crzq1/images/leaf.gif?updatedAt=1730218670105" alt="" class="icon">
         <div class="text-box">
             <h2 style="color: #735e59">Step 2</h2>
             <small style="color: #337b3c">Do what you can</small>
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="cont left-cont">
-        <img src="{{asset('assets/images/leaf.gif')}}" alt="" class="icon">
+        <img src="https://ik.imagekit.io/ilv4crzq1/images/leaf.gif?updatedAt=1730218670105" alt="" class="icon">
         <div class="text-box">
             <h2 style="color: #735e59">Step 3</h2>
             <small style="color: #337b3c">Plant some plants</small>
@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="cont right-cont">
-        <img src="{{asset('assets/images/leaf.gif')}}" alt="" class="icon">
+        <img src="https://ik.imagekit.io/ilv4crzq1/images/leaf.gif?updatedAt=1730218670105" alt="" class="icon">
         <div class="text-box">
             <h2 style="color: #735e59">Step 4</h2>
             <small  style="color: #337b3c">Plant trees</small>
@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="cont left-cont">
-        <img src="{{asset('assets/images/leaf.gif')}}" alt="" class="icon">
+        <img src="https://ik.imagekit.io/ilv4crzq1/images/leaf.gif?updatedAt=1730218670105" alt="" class="icon">
         <div class="text-box">
             <h2 style="color: #735e59">Step 5</h2>
             <small  style="color: #337b3c">Join Us!!</small>

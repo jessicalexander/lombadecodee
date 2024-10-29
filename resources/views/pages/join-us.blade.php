@@ -6,7 +6,7 @@
 
 @section('content')
 <div id="banner">
-    <img id="img-banner"src="{{asset('assets/images/greenary.svg')}}">
+    <img id="img-banner"src="https://ik.imagekit.io/ilv4crzq1/images/greenary%20(1).svg?updatedAt=1730219506709">
     <div id="center">
     <div class="cont">
     <div class="form_area">
@@ -37,7 +37,7 @@
     </div>
     </div>
     <div class="back">
-        <a onclick="window.history.back()"><img src="{{asset('assets/images/back.svg')}}" alt="" width='20px'></a>
+        <a onclick="window.history.back()"><img src="https://ik.imagekit.io/ilv4crzq1/images/back.svg?updatedAt=1730218640064" alt="" width='20px'></a>
     </div>
 </div>
 

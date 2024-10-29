@@ -109,7 +109,7 @@
 {{-- newsletter --}}
 <div class="newsletter mt-5 d-flex justify-content-between align-items-center">
     <div class="ani-left">
-        <img src="{{asset('assets/images/left.gif')}}" alt="left-trunk" width="100%">
+        <img src="https://ik.imagekit.io/ilv4crzq1/images/left.gif?updatedAt=1730218670533" alt="left-trunk" width="100%">
     </div>
     <div class="news-sign text-center flex-column">
         <div class="header-card brown-f">
@@ -121,12 +121,12 @@
             <form action="{{route('newsletter.store')}}" method="POST">
             @csrf
                 <input name="email" type="email" placeholder="Enter your email..." class="email-news-input">
-                <button type="submit" class="button-89"><img src="{{asset('assets/images/send.svg')}}" alt="send" width="20px"></button>
+                <button type="submit" class="button-89"><img src="https://ik.imagekit.io/ilv4crzq1/images/send.svg?updatedAt=1730218644144" alt="send" width="20px"></button>
             </form>
         </div>
     </div>
     <div class="ani-right">
-        <img src="{{asset('assets/images/right.gif')}}" alt="right-trunk" width="100%">
+        <img src="https://ik.imagekit.io/ilv4crzq1/images/right.gif?updatedAt=1730218670046" alt="right-trunk" width="100%">
     </div>
 </div>
 
@@ -142,7 +142,7 @@
             <article>
               <div class="article-wrapper">
                 <figure>
-                  <img src="{{asset('assets/images/trees-3294681_1920.webp')}}" alt="" />
+                  <img src="https://ik.imagekit.io/ilv4crzq1/images/trees-3294681_1920.webp?updatedAt=1730218646693" alt="" />
                 </figure>
                 <div class="article-body">
                   <h2>Billion Trees Initiative in the U.S.</h2>
@@ -162,7 +162,7 @@
           
               <div class="article-wrapper">
                 <figure>
-                  <img src="{{asset('assets/images/small-green-seedling-replant-plant-growth-sustainable-resources-environment-earth-day_569725-15658.jpg')}}" alt="" />
+                  <img src="https://ik.imagekit.io/ilv4crzq1/images/small-green-seedling-replant-plant-growth-sustainable-resources-environment-earth-day_569725-15658.jpg?updatedAt=1730218644555" alt="" />
                 </figure>
                 <div class="article-body">
                   <h2>Tree Planting Grants for Disadvantaged Areas</h2>
@@ -182,7 +182,7 @@
           
               <div class="article-wrapper">
                 <figure>
-                  <img src="{{asset('assets/images/0206H1-1010-1800x1012.webp')}}" alt="" />
+                  <img src="https://ik.imagekit.io/ilv4crzq1/images/0206H1-1010-1800x1012.webp?updatedAt=1730218641240" alt="" />
                 </figure>
                 <div class="article-body">
                   <h2>Importance of Trees in Urban Environments</h2>

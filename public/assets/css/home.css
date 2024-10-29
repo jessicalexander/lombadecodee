@@ -13,7 +13,7 @@ a:link, a:visited, a:hover, a:active {
     color: #735e59 !important;
 }
 .banner {
-    background-image: url('/assets/images/banner.svg');
+    background-image: url('https://ik.imagekit.io/ilv4crzq1/images/banner.svg?updatedAt=1730218641074');
     background-size: cover;
     background-position: center;
     width: 100vw;

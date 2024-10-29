@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="{{asset('assets/images/logo.svg')}}">
+    <link rel="icon" href="https://ik.imagekit.io/ilv4crzq1/images/logo.svg?updatedAt=1730218640235">
     <title>EcoFriend Nature</title>
     {{-- fonts --}}
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
@@ -58,7 +58,7 @@
     <div class="ini-navigation">
             <nav class="navbar navbar-expand-lg">
             <div class="container-fluid ">
-            <a class="navbar-brand logo-space" href="{{route('home')}}"><img src="{{asset('assets/images/logo.svg')}}" alt="logo" style="width:10%"></a>
+            <a class="navbar-brand logo-space" href="{{route('home')}}"><img src="https://ik.imagekit.io/ilv4crzq1/images/logo.svg?updatedAt=1730218640235" alt="logo" style="width:10%"></a>
             <button class="collapsed navbar-toggler d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="toggler-icon top-bar"></span>
                 <span class="toggler-icon middle-bar"></span>
@@ -135,10 +135,10 @@
     <footer id="footer">
         <div class="footer-ani">
             <div class="d-flex flex-row justify-content-evenly align-self-end">
-                <img src="{{asset('assets/images/tree.gif')}}" alt="tree" style="width: 20%">
-                <img src="{{asset('assets/images/tree.gif')}}" alt="tree" style="width: 20%">
-                <img src="{{asset('assets/images/tree.gif')}}" alt="tree" style="width: 20%">
-                <img src="{{asset('assets/images/tree.gif')}}" alt="tree" style="width: 20%">
+                <img src="https://ik.imagekit.io/ilv4crzq1/images/tree.gif?updatedAt=1730218659016" alt="tree" style="width: 20%">
+                <img src="https://ik.imagekit.io/ilv4crzq1/images/tree.gif?updatedAt=1730218659016" alt="tree" style="width: 20%">
+                <img src="https://ik.imagekit.io/ilv4crzq1/images/tree.gif?updatedAt=1730218659016" alt="tree" style="width: 20%">
+                <img src="https://ik.imagekit.io/ilv4crzq1/images/tree.gif?updatedAt=1730218659016" alt="tree" style="width: 20%">
             </div>
         </div>
         <div class="footer-container">
