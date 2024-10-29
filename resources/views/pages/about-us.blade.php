@@ -1,7 +1,129 @@
 @extends('components.public')
 
 @section('addition_css')
-    <link rel="stylesheet" type="text/css" href="https://ik.imagekit.io/ilv4crzq1/css/aboutUs.css?updatedAt=1730221416109">
+#banner {
+    position: relative;
+    text-align: center;
+}
+
+#img-banner {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+#banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(129, 168, 59, 0.5); /* Green color with 50% opacity */
+    z-index: 1; /* Ensure overlay is on top of the image */
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure text appears above the overlay */
+}
+
+#banner-text {
+    color: #191919;
+    font-size: 2.5em;
+}
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+.goals{
+    background-color: #fbfcf8;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.image {
+    padding-left: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+
+.title-left, .title-right {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    position: absolute;
+}
+
+.title-left {
+    top: 0;
+    left: 15%;
+    margin: 20px;
+    font-size: 1PX;
+}
+
+
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.chart-image {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.diagram img{
+    max-width: 80vw;
+}
+.text-mission{
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+}
+
+.chart-image {
+    width: 80%; /* Atur sesuai kebutuhan, contoh ini membuat SVG sebesar 80% dari lebar kontainer */
+    max-width: 1000px; /* Tentukan batas maksimal agar tidak terlalu besar */
+    height: auto;
+}
+@media (max-width:576px) {
+    .content-section{
+        flex-direction: column;
+        padding:0px;
+    }
+    .image{
+        margin: 20px auto;
+    }
+    .text-mission{
+        text-align: center;
+    }
+}
 @endsection
 
 @section('content')
