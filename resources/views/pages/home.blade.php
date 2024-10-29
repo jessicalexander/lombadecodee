@@ -1,7 +1,7 @@
 @extends('components.public')
 
 @section('addition_css')
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('/assets/css/home.css') }}">
+<link rel="stylesheet" type="text/css" href="https://ik.imagekit.io/ilv4crzq1/css/home.css?updatedAt=1730221416039">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 @endsection
 

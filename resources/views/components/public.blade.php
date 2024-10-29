@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
     {{-- css --}}
-    <link rel="stylesheet" type="text/css" href="{{URL::asset('/assets/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="https://ik.imagekit.io/ilv4crzq1/css/style.css?updatedAt=1730221416280">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     {{-- tambahan css --}}
@@ -149,7 +149,7 @@
     </div>
     {{-- js --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="{{(asset('pages/js/script.js'))}}"></script>
+    <script src="https://ik.imagekit.io/ilv4crzq1/js/script.js?updatedAt=1730221647527"></script>
     {{-- tambah js --}}
     @yield('addition_js')
 </body>

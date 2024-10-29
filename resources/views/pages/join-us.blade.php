@@ -1,7 +1,7 @@
 @extends('components.public')
 
 @section('addition_css')
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('/assets/css/join.css') }}">
+<link rel="stylesheet" type="text/css" href="https://ik.imagekit.io/ilv4crzq1/css/join.css?updatedAt=1730221416136">
 @endsection
 
 @section('content')

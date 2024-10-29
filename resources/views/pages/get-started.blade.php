@@ -1,6 +1,6 @@
 @extends('components.public')
 @section('addition_css')
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('/assets/css/get-started.css') }}">
+<link rel="stylesheet" type="text/css" href="https://ik.imagekit.io/ilv4crzq1/css/get-started.css?updatedAt=1730221416091">
 @endsection
 @section('content')
 <div id="banner">
@@ -58,5 +58,5 @@
 </div>
 @endsection
 @section('addition_js')
-<script src="{{ asset('pages/js/get-started.js') }}"></script>
+<script src="https://ik.imagekit.io/ilv4crzq1/js/get-started.js?updatedAt=1730221647595"></script>
 @endsection
